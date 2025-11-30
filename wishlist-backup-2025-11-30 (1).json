@@ -1,0 +1,508 @@
+{
+  "version": "1.0",
+  "exportDate": "2025-11-30T19:40:39.872Z",
+  "items": [
+    {
+      "id": "mh8hh5z3x52nbiyxbd",
+      "name": "Octobuddy",
+      "description": "",
+      "category": "other",
+      "priority": "medium",
+      "mostWanted": false,
+      "variants": [
+        {
+          "color": "Pink or White",
+          "size": "No size",
+          "price": "$9.98",
+          "link": "https://www.amazon.ca/Silicone-Suction-Hands-Free-Accessories-Adhesive/dp/B0D6318LMP/ref=sr_1_4?crid=2EMP8OS2N6RO&dib=eyJ2IjoiMSJ9.f-c3DYEKy4FC9O2aN5uTOhuGCy4YvqCQTgKHfl31YQanz2DWix10htFi6geW2hV2qpJLY7v3zZXpWIUyRgCOxGGxhlvRBnphZma_yfWdUFuS1kgTpOcquZCCTxMOqBxebZjEMYAV2yDLDj-UqHY7gyCjn1d-CeHGo6f-llIc2JawechuYEzgdrZyzvKJmdqKAgzTnzKst2Hipb46vc59eNxe4dfm_mUCiWiOyBYUms2aDuiH6Dk2CZmj5f6GzfCAKOP2cFI6U5hrAeMhQ9ibz0BAdhmMvp4Z5RniJXmbeNk.GoZbM_7PHdqY1zx9PRcJU0X7ECyaDYXS7XVyelKW_lE&dib_tag=se&keywords=octobuddy&qid=1760927867&s=electronics&sprefix=octo%2Celectronics%2C103&sr=1-4&th=1",
+          "storeName": "Amazon"
+        }
+      ],
+      "image": "https://product-images-cdn.liketoknow.it/gsmPRnUxCaFbJS01jElGgSZT0lAQB.v.r5kI0WTvz3NESeQ9vAES.joaNC7YzF.7qrYu0rvFOnFxS1cs41fF4Kc3d4FrnNRoujrOyDyrBRLFnV.p6BXpxv9FNwVJoJDt076GUQy05KfJizuLXnPC53OAErVZZIU74zNAzHmRvvEesurxhbrh1B1d65E-?v=0&auto=format&fm=webp&w=450&q=80&dpr=2.625",
+      "dateAdded": "2025-10-27T01:53:13.599Z",
+      "purchased": false
+    },
+    {
+      "id": "mh8ihcapvlnkxc1ftna",
+      "name": "Winter coat",
+      "description": "",
+      "category": "clothing",
+      "priority": "high",
+      "mostWanted": true,
+      "variants": [
+        {
+          "color": "Black",
+          "size": "2XS-S",
+          "price": "$275",
+          "link": "https://www.aritzia.com/en/product/the-super-puff%E2%84%A2-shorty/126465.html?color=1274_6",
+          "storeName": "Artizia"
+        }
+      ],
+      "image": "https://assets.aritzia.com/image/upload/c_crop,ar_1920:2623,g_south/q_auto,f_auto,dpr_auto,w_1500/f25_a05_126365_1274_on_a",
+      "dateAdded": "2025-10-27T02:21:21.409Z",
+      "purchased": false
+    },
+    {
+      "id": "mhajzr9tkdh4uvhzhv",
+      "name": "Vest",
+      "description": "",
+      "category": "clothing",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Black",
+          "size": "2XS-S",
+          "price": "$275",
+          "link": "https://www.aritzia.com/en/product/the-super-puff%E2%84%A2-lohip-vest/127392.html?color=1274",
+          "storeName": "Aritzia"
+        }
+      ],
+      "image": "https://assets.aritzia.com/image/upload/c_crop,ar_1920:2623,g_south/q_auto,f_auto,dpr_auto,w_1500/f25_a05_126774_1274_on_a",
+      "dateAdded": "2025-10-28T12:39:12.593Z",
+      "purchased": false
+    },
+    {
+      "id": "mhak1eiaxtoff8069k",
+      "name": "Brown sweater",
+      "description": "",
+      "category": "clothing",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": true,
+      "variants": [
+        {
+          "color": "Rich mocha brown",
+          "size": "2XS-S",
+          "price": "$95",
+          "link": "https://www.aritzia.com/en/product/cozy-sweatfleece-mega-raglan%E2%84%A2-hoodie/116266.html?color=18891",
+          "storeName": "Aritzia"
+        }
+      ],
+      "image": "https://assets.aritzia.com/image/upload/c_crop,ar_1920:2623,g_south/q_auto,f_auto,dpr_auto,w_1500/f25_a03_116266_18891_on_a",
+      "dateAdded": "2025-10-28T12:40:29.362Z",
+      "purchased": false
+    },
+    {
+      "id": "mhak2gmpl3sfzz4u8a",
+      "name": "Camo sweater",
+      "description": "",
+      "category": "clothing",
+      "priority": "high",
+      "mostWanted": true,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Camo",
+          "size": "Small",
+          "price": "$12.99",
+          "link": "https://www.ardene.com/us/en/camouflage-hoodie/5A-AP34223-01.html?srsltid=AfmBOooWiZQ1waZ72vJiAQ6WAF6IceiRR5OBxxHyptLIts_XdGmCM5KV",
+          "storeName": "Ardene"
+        }
+      ],
+      "image": "https://www.ardene.com/on/demandware.static/-/Sites-master-catalog/default/dwac178ed2/images/large/5A-AP34223-01-90c8296b-7235-4685-b17e-c006609ad1ae.jpg",
+      "dateAdded": "2025-10-28T12:41:18.769Z",
+      "purchased": false
+    },
+    {
+      "id": "mhak3oa8nbl2ljegb",
+      "name": "White sweater",
+      "description": "",
+      "category": "clothing",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Heather grey",
+          "size": "XS-S",
+          "price": "$39",
+          "link": "https://www.gapcanada.ca/browse/product.do?pid=523562053&vid=1&searchText=hoodie#pdp-page-content",
+          "storeName": "Gap"
+        }
+      ],
+      "image": "https://www.gapcanada.ca/webcontent/0056/048/487/cn56048487.jpg",
+      "dateAdded": "2025-10-28T12:42:15.344Z",
+      "purchased": false
+    },
+    {
+      "id": "mhak4sstpqr1d17nx9",
+      "name": "Knee pads",
+      "description": "",
+      "category": "sports",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "White",
+          "size": "XS-S",
+          "price": "$40",
+          "link": "https://www.nike.com/t/varsity-knee-pads-dPq4Zk/N1003461-101",
+          "storeName": "Nike"
+        }
+      ],
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/55b33a31-575f-4d08-9ca2-1e9583b8d31d/NIKE+VARSITY+KNEE+PAD.png",
+      "dateAdded": "2025-10-28T12:43:07.853Z",
+      "purchased": false
+    },
+    {
+      "id": "mhak5u6i8h5khmlxexk",
+      "name": "Arm sleeves",
+      "description": "",
+      "category": "sports",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": true,
+      "variants": [
+        {
+          "color": "Black/white",
+          "size": "S/M",
+          "price": "$28",
+          "link": "https://www.sportchek.ca/en/pdp/nike-youth-pro-elite-arm-sleeves-2-0-70269978f.332706161.html?utm_content=shopping&gclsrc=aw.ds&gad_source=1&gad_campaignid=17082775155&gbraid=0AAAAADRjFqR57bWycoYJQHKqLDUNNH6WE&gclid=CjwKCAjwu9fHBhAWEiwAzGRC_wZCWgTwa6NEZ-T6G8SSeEO1LtwFPjnfKri4yz6CK_EvkktIw9rKghoCUwYQAvD_BwE",
+          "storeName": "Sportcheck"
+        }
+      ],
+      "image": "https://media-www.atmosphere.ca/product/div-03-softgoods/dpt-79-clothing-accessories/sdpt-01-mens/332706161/nike-youth-pro-elite-sleeves-black-white-s-m--19cce29c-25db-4709-b783-43c34e647702-jpgrendition.jpg?imdensity=1&imwidth=1244&impolicy=gZoom",
+      "dateAdded": "2025-10-28T12:43:56.298Z",
+      "purchased": false
+    },
+    {
+      "id": "mhak713p2mutko6a9op",
+      "name": "Tanning Lotion",
+      "description": "",
+      "category": "other",
+      "priority": "low",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "No colour",
+          "size": "No size",
+          "price": "$19.99",
+          "link": "https://www.amazon.ca/Australian-Gold-Spray-Bronzer-Fragrance/dp/B08WDLGM1T/ref=sr_1_7?dib=eyJ2IjoiMSJ9.xicjZSbVz84Rf1UwthSVdeGDICPPXX8YW5a6nMAxYAnD1tk_g670eawOVlf_RgB7PQp5r3sPqulTxcbZtiGmACzPaVTBz_NSZUWZ2VsOGcOeytBc53j8mL-iITjOnqClpZiIbAgcLfIsyzRHSZBizLRzhaLohXYgHo_rFg69buWbST_QEpoAL2413ujXOJM5EjRXOg1MfRhANdMstG3LXAU7jqjtOste4R7x_RSiGN4oT17r0NcIhhQUAs3cC4HpXS691nbt-wboMbpZLC1DPzNuUkJ8oJwZA2blD23lUTk.utotbVc1LR9KlQNSwTk054eQs58rxvWferYh7G9AcMU&dib_tag=se&gad_source=1&hvadid=595964802708&hvdev=c&hvexpln=0&hvlocphy=9000887&hvnetw=g&hvocijid=14855949566752809771--&hvqmt=e&hvrand=14855949566752809771&hvtargid=kwd-351280344847&hydadcr=27231_14547182&keywords=australian+gold+tanning+lotion&mcid=f04b6ce624cb3c4b9ba40dee3d7a1510&qid=1761010504&sr=8-7",
+          "storeName": "Amazon"
+        }
+      ],
+      "image": "https://m.media-amazon.com/images/I/51aUwwlzjTL._AC_SL1000_.jpg",
+      "dateAdded": "2025-10-28T12:44:51.925Z",
+      "purchased": false
+    },
+    {
+      "id": "mhak7zjr6g9hb3n58t",
+      "name": "PJ set",
+      "description": "",
+      "category": "clothing",
+      "priority": "low",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Pink",
+          "size": "XS-S",
+          "price": "$17.58",
+          "link": "https://www.amazon.ca/LYANER-Striped-Pajamas-Sleepwear-X-Large/dp/B08LNRBB1K/ref=asc_df_B08LNRBB1K?mcid=723b3be0b0743aeaab7559650896ec91&tag=googleshopc0c-20&linkCode=df0&hvadid=706726610157&hvpos=&hvnetw=g&hvrand=1013977865385710475&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9000887&hvtargid=pla-1644301275595&hvocijid=1013977865385710475-B08LNRBB1K-&hvexpln=0&gad_source=1&th=1&psc=1",
+          "storeName": "Amazon"
+        }
+      ],
+      "image": "https://m.media-amazon.com/images/I/61-xGp7QWkL._AC_SY879_.jpg",
+      "dateAdded": "2025-10-28T12:45:36.567Z",
+      "purchased": false
+    },
+    {
+      "id": "mhak9majpslc98vm0gj",
+      "name": "Digital camera",
+      "description": "",
+      "category": "electronics",
+      "priority": "high",
+      "mostWanted": true,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Any colour",
+          "size": "No size",
+          "price": "$58.11",
+          "link": "https://www.amazon.ca/Digital-Vlogging-Charging-1200mAh-Vlogger/dp/B0BWML15L7/ref=asc_df_B0BWML15L7?mcid=dcdb6d1cee6f3b29b6fa4c5b59a00abf&tag=googleshopc0c-20&linkCode=df0&hvadid=706724917380&hvpos=&hvnetw=g&hvrand=9812085815528895321&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9000887&hvtargid=pla-2295073481984&hvocijid=9812085815528895321-B0BWML15L7-&hvexpln=0&gad_source=1&th=1",
+          "storeName": "Amazon"
+        }
+      ],
+      "image": "https://m.media-amazon.com/images/I/71qbvj5K1AL._AC_SL1500_.jpg",
+      "dateAdded": "2025-10-28T12:46:52.699Z",
+      "purchased": false
+    },
+    {
+      "id": "mhakauc4351qr7xwbyk",
+      "name": "Water bottle",
+      "description": "",
+      "category": "school",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": true,
+      "variants": [
+        {
+          "color": "Rose Quartz",
+          "size": "No size",
+          "price": "$41.99",
+          "link": "https://owalalife.com/en-ca/products/freesip?Color=Rose+Quartz&Material=Stainless+Steel&Size=24oz&selectionType=local",
+          "storeName": "Owala"
+        }
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0439/2537/3087/files/24oz_Pink_-_SC_2.png?v=1739398877&width=1000&height=1000&crop=center",
+      "dateAdded": "2025-10-28T12:47:49.780Z",
+      "purchased": false
+    },
+    {
+      "id": "mhakcakndp1wgjmvnjh",
+      "name": "Backpack",
+      "description": "",
+      "category": "school",
+      "priority": "high",
+      "mostWanted": true,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Black, or Blue Dusk, or Grey",
+          "size": "No size",
+          "price": "$55",
+          "link": "https://jansport.ca/products/superbreak-plus-backpack-js0a4que?variant=44057128894660",
+          "storeName": "Jansport"
+        }
+      ],
+      "image": "https://jansport.ca/cdn/shop/files/JS0A4QUE_7H6_gallery_5_1423d684-de29-4a8d-8007-7eb1978e9242.jpg?v=1723754474&width=1000",
+      "dateAdded": "2025-10-28T12:48:57.479Z",
+      "purchased": false
+    },
+    {
+      "id": "mhakdihxpa6je4bgbi",
+      "name": "Bonnet",
+      "description": "",
+      "category": "other",
+      "priority": "low",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Pink",
+          "size": "No size",
+          "price": "$7.99",
+          "link": "https://www.amazon.ca/Large-Bonnets-Sleeping-Adjustable-Straps/dp/B0BP17YGK9?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A2C25LJ03CJTFP&th=1",
+          "storeName": "Amazon"
+        }
+      ],
+      "image": "https://m.media-amazon.com/images/I/61cdHppOfbL._AC_SL1500_.jpg",
+      "dateAdded": "2025-10-28T12:49:54.405Z",
+      "purchased": false
+    },
+    {
+      "id": "mhtwrwfcr06e22slohi",
+      "name": "Ugg shoes",
+      "description": "",
+      "category": "clothing",
+      "priority": "high",
+      "mostWanted": true,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Chestnut, or Sand",
+          "size": "5",
+          "price": "$185",
+          "link": "https://www.ugg.com/ca/women-casuals-sneakers/lowmel/196565724373.html?utm_source=google&utm_medium=pla&gclsrc=aw.ds&gad_source=1&gad_campaignid=17963588602&gbraid=0AAAAADR3qogT4Vzq-a2HGp-b2L1F1FHSi&gclid=CjwKCAiAt8bIBhBpEiwAzH1w6d_CfKO8MIpTgAGeykswk3NFiKVatfLX3lX1t0uBgpLzKfJMRLKKPxoCh7sQAvD_BwE",
+          "storeName": "Uggs"
+        }
+      ],
+      "image": "https://dms.deckers.com/ugg/image/upload/t_pdp-slider-large-wp/v1735585206/1144032-SAN_1.png?_s=RAABAB0",
+      "dateAdded": "2025-11-11T01:44:38.376Z",
+      "purchased": false
+    },
+    {
+      "id": "mhtwvsm8ug5k6dfkaz",
+      "name": "Phone case",
+      "description": "",
+      "category": "other",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "White",
+          "size": "No size",
+          "price": "$44.95",
+          "link": "https://www.kasemedesign.ca/products/longchamp?variant=42152182480994",
+          "storeName": "Kaseme"
+        }
+      ],
+      "image": "https://www.kasemedesign.ca/cdn/shop/files/iPhone_17_Impact_Case_Longchamp.png?v=1757012375&width=2880",
+      "dateAdded": "2025-11-11T01:47:40.064Z",
+      "purchased": false
+    },
+    {
+      "id": "midyerdpc6j8jpjwxjf",
+      "name": "Airpods case",
+      "description": "",
+      "category": "other",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": true,
+      "variants": [
+        {
+          "color": "No colour",
+          "size": "Airpods 4",
+          "price": "$13.21",
+          "link": "https://www.amazon.ca/AirPods-Generation-Protective-Silicone-Keychain/dp/B0DPKM5PCG/ref=pd_rhf_se_s_pd_sbs_rvi_d_sccl_2_7/133-9630044-9373925?pd_rd_w=ds94O&content-id=amzn1.sym.d2ee3dc2-0fb5-4635-a205-adeccc058e12&pf_rd_p=d2ee3dc2-0fb5-4635-a205-adeccc058e12&pf_rd_r=FKSWT9QEJKQQPMJAB7A6&pd_rd_wg=pm7yo&pd_rd_r=9613ed88-4c8e-4c09-9538-628be4d108b2&pd_rd_i=B0DPKM5PCG&th=1",
+          "storeName": "Amazon"
+        }
+      ],
+      "image": "https://m.media-amazon.com/images/I/613BlWxxNwL._AC_SL1500_.jpg",
+      "dateAdded": "2025-11-25T02:25:48.061Z",
+      "purchased": false
+    },
+    {
+      "id": "midykw7u2bflc7piyeg",
+      "name": "New socks",
+      "description": "",
+      "category": "clothing",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "White",
+          "size": "S-M",
+          "price": "$42",
+          "link": "https://www.nike.com/ca/t/jordan-everyday-cushioned-crew-socks-zfrSKt/HV6228-100",
+          "storeName": "Nike"
+        }
+      ],
+      "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/abbf7b27-4788-4f7e-ad5b-e9a212ad0682/U+J+ED+CUSH+PLY+CREW+6PR+-+144.png",
+      "dateAdded": "2025-11-25T02:30:34.266Z",
+      "purchased": false
+    },
+    {
+      "id": "mim47r890cw9431tv995",
+      "name": "Cream Contour",
+      "description": "",
+      "category": "makeup",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "01",
+          "size": "No size",
+          "price": "$19.00",
+          "link": "https://www.sephora.com/ca/en/product/contour-stick-P511273?country_switch=ca&skuId=2731289&om_mmc=ppc-GG_23270558353___2731289__9000887_c&gclsrc=aw.ds&gad_source=1&gad_campaignid=23266339439&gbraid=0AAAAADnIXb3tJEhSsmpgqEFl75bfEIs1z&gclid=CjwKCAiA86_JBhAIEiwA4i9Ju1nVP1TbFi_5BzMpnte1uEY6w1SNSSJjKcZK8RO0wzvJ9FwbNdVM6BoC8CgQAvD_BwE",
+          "storeName": "Sephora"
+        }
+      ],
+      "image": "https://www.sephora.com/productimages/sku/s2731289-main-zoom.jpg?imwidth=1224",
+      "dateAdded": "2025-11-30T19:30:28.377Z",
+      "purchased": false
+    },
+    {
+      "id": "mim48ym6h1a34uqkzuk",
+      "name": "Blush Powder",
+      "description": "",
+      "category": "makeup",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Strawberry",
+          "size": "No size",
+          "price": "$35.00",
+          "link": "https://www.lauramercier.com/en-ca/products/blush-color-infusion?variant=43486641160431&utm_source=google&utm_medium=cpc&utm_campaign=2025_US_LM_Google_PLA_AON-All_Mid_Conversion_DotCom&gclsrc=aw.ds&gad_source=1&gad_campaignid=23228758932&gbraid=0AAAAADuxEmrUi0GZ40-Wtdi1FEg8KM5jx&gclid=CjwKCAiA86_JBhAIEiwA4i9Juwl8lGirMbV4_RbcTxz0j_5z4Pchai_EMJ1NoOoYrvCIxeQVnVmYVBoCFLEQAvD_BwE",
+          "storeName": "Laura Mercier"
+        }
+      ],
+      "image": "https://www.lauramercier.com/cdn/shop/products/lm-blush-color-infusion-blush-color-infusion-strawberry-spp-279-angled.png?v=1762197909&width=700",
+      "dateAdded": "2025-11-30T19:31:24.606Z",
+      "purchased": false
+    },
+    {
+      "id": "mim4abyw6h26xshibq",
+      "name": "Blush Cream",
+      "description": "",
+      "category": "makeup",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Pale Petal",
+          "size": "No size",
+          "price": "$54.00",
+          "link": "https://www.sephora.com/ca/en/product/soft-pop-blush-stick-P516566?country_switch=ca&skuId=2867638&om_mmc=ppc-GG_23270558353___2867612__9000887_c&gclsrc=aw.ds&gad_source=1&gad_campaignid=23266339439&gbraid=0AAAAADnIXb3tJEhSsmpgqEFl75bfEIs1z&gclid=CjwKCAiA86_JBhAIEiwA4i9Ju6P3B_y2sM4IZZq-7LzIjvqnpJBodb4FtVlSx6K-WvESVbhSNP9vUBoCWTcQAvD_BwE",
+          "storeName": "Sephora"
+        }
+      ],
+      "image": "https://www.sephora.com/productimages/sku/s2867638-main-zoom.jpg?imwidth=1224",
+      "dateAdded": "2025-11-30T19:32:28.569Z",
+      "purchased": false
+    },
+    {
+      "id": "mim4cjkeseux2bpplwq",
+      "name": "Powder",
+      "description": "",
+      "category": "makeup",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "1 fair",
+          "size": "No size",
+          "price": "$28.50",
+          "link": "https://www.charlottetilbury.com/ca/product/mini-airbrush-flawless-finish-1-fair",
+          "storeName": "Charlotte tilbury"
+        }
+      ],
+      "image": "https://images.ctfassets.net/wlke2cbybljx/7JnauqRwVP7m5qNa7yl0jq/99d9e1196deb95f600a868f64bc20331/AFFMINI-FAIR-LEGENDARY-PDP-BESTSELLER.png?q=80&w=660&h=660&fit=fill&bg=&fm=webp",
+      "dateAdded": "2025-11-30T19:34:11.726Z",
+      "purchased": false
+    },
+    {
+      "id": "mim4i03xqmhsxfbmp7d",
+      "name": "Hair clips",
+      "description": "",
+      "category": "other",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "No colour",
+          "size": "No size",
+          "price": "$20.50",
+          "link": "https://www.sephora.com/ca/en/product/mane-all-grip-no-slip-alligator-clips-P510146?country_switch=ca&lang=en&skuId=2744670&om_mmc=ppc-GG_20543817093___2744670__9000887_c&gclsrc=aw.ds&gad_source=1&gad_campaignid=20543819739&gbraid=0AAAAADnIXb11YydtHSbRFNWSaAPLBaPHk&gclid=CjwKCAiA86_JBhAIEiwA4i9Ju47BfrIUunpPWRRtNoZWosPxkkuYGXiKs4tgH6DGSZP2QxhE0Ax1AxoCiQYQAvD_BwE",
+          "storeName": "Sephora"
+        }
+      ],
+      "image": "https://www.sephora.com/productimages/sku/s2744670-main-zoom.jpg?imwidth=1224",
+      "dateAdded": "2025-11-30T19:38:26.445Z",
+      "purchased": false
+    },
+    {
+      "id": "mim4jvgydznt1551fc7",
+      "name": "Hair rollers",
+      "description": "",
+      "category": "other",
+      "priority": "medium",
+      "mostWanted": false,
+      "favorite": false,
+      "variants": [
+        {
+          "color": "Pink",
+          "size": "No size",
+          "price": "$14.99",
+          "link": "https://www.amazon.ca/Sizes-Self-Grip-Hair-Rollers-Clips/dp/B0DQCYVXZL/ref=asc_df_B0DQCYVXZL?mcid=37d9d46cfcba3233a590de67e4a7c987&tag=googleshopc0c-20&linkCode=df0&hvadid=708674807214&hvpos=&hvnetw=g&hvrand=26192444721186519&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9000887&hvtargid=pla-2412203804120&hvocijid=26192444721186519-B0DQCYVXZL-&hvexpln=0&gad_source=1&th=1",
+          "storeName": "Amazon"
+        }
+      ],
+      "image": "https://m.media-amazon.com/images/I/81hB7VH1qfL._AC_SL1500_.jpg",
+      "dateAdded": "2025-11-30T19:39:53.746Z",
+      "purchased": false
+    }
+  ]
+}
