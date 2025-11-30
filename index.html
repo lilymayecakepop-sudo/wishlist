@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wishlist</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 My Wishlist</h1>
+            <div class="header-buttons">
+                <button id="export-btn" class="export-btn">📤 Export</button>
+                <button id="import-btn" class="import-btn">📥 Import</button>
+                <button id="add-item-btn" class="add-btn">+ Add Item</button>
+            </div>
+        </header>
+
+
+        <!-- Most Wanted Section -->
+        <section id="most-wanted-section" class="most-wanted">
+            <h2>⭐ Most Wanted</h2>
+            <div id="most-wanted-grid" class="item-grid">
+                <!-- Most wanted items will be inserted here -->
+            </div>
+        </section>
+
+        <!-- Search and Filter -->
+        <section class="controls">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search items...">
+            </div>
+            <div class="filters">
+                <div class="filter-with-button">
+                    <select id="category-filter">
+                        <option value="">All Categories</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="clothing">Clothing</option>
+                        <option value="school">School</option>
+                        <option value="sports">Sports</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <button id="add-category-btn" class="add-category-btn" title="Add New Category">+</button>
+                </div>
+                <select id="priority-filter">
+                    <option value="">All Priorities</option>
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Main Wishlist -->
+        <section id="wishlist-section" class="wishlist">
+            <h2>📝 All Items</h2>
+            <div id="wishlist-grid" class="item-grid">
+                <!-- Wishlist items will be inserted here -->
+            </div>
+        </section>
+
+        <!-- Gift Cards Section -->
+        <section id="gift-cards-section" class="gift-cards">
+            <div class="section-header">
+                <h2>🎁 Gift Cards</h2>
+                <button id="add-gift-card-btn" class="add-btn">+ Add Gift Card</button>
+            </div>
+
+            <!-- Gift Card Controls -->
+            <div class="controls">
+                <div class="search-bar">
+                    <input type="text" id="gift-card-search-input" placeholder="Search gift cards...">
+                </div>
+                <div class="filters">
+                    <select id="gift-card-priority-filter">
+                        <option value="">All Priorities</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="gift-cards-grid" class="item-grid">
+                <!-- Gift cards will be inserted here -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Hidden file input for importing data -->
+    <input type="file" id="import-file-input" accept=".json" style="display: none;">
+
+    <!-- Add/Edit Item Modal -->
+    <div id="item-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title">Add New Item</h3>
+            <form id="item-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="item-name">Item Name:</label>
+                        <input type="text" id="item-name" required placeholder="e.g., iPhone 15">
+                    </div>
+                    <div class="form-group">
+                        <label for="item-category">Category:</label>
+                        <div class="filter-with-button">
+                            <select id="item-category">
+                                <option value="electronics">Electronics</option>
+                                <option value="clothing">Clothing</option>
+                                <option value="school">School</option>
+                                <option value="sports">Sports</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <button type="button" id="add-category-btn-modal" class="add-category-btn" title="Add New Category">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="item-color">Color:</label>
+                        <input type="text" id="item-color" placeholder="e.g., Black, Red">
+                    </div>
+                    <div class="form-group">
+                        <label for="item-size">Size:</label>
+                        <input type="text" id="item-size" placeholder="e.g., Medium, XL">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="item-store">Store Name:</label>
+                        <input type="text" id="item-store" placeholder="e.g., Amazon, Target">
+                    </div>
+                    <div class="form-group">
+                        <label for="item-price">Price:</label>
+                        <input type="text" id="item-price" placeholder="e.g., $29.99">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="item-priority">Priority:</label>
+                        <select id="item-priority">
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                            <option value="low">Low</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="item-link">Product Link:</label>
+                        <input type="url" id="item-link" required placeholder="https://store.com/product">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="item-top-pick"> Mark as Top Pick
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <!-- Empty space for alignment -->
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="item-image">Picture URL:</label>
+                    <input type="url" id="item-image" placeholder="https://example.com/image.jpg">
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="save-btn">Save Item</button>
+                    <button type="button" class="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add/Edit Gift Card Modal -->
+    <div id="gift-card-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close" onclick="window.wishlistUI.closeGiftCardModal()">&times;</span>
+            <h3 id="gift-card-modal-title">Add New Gift Card</h3>
+            <form id="gift-card-form">
+                <div class="form-group">
+                    <label for="gift-card-name">Store/Brand Name:</label>
+                    <input type="text" id="gift-card-name" required placeholder="e.g., Amazon, Target, Starbucks">
+                </div>
+
+                <div class="form-group">
+                    <label for="gift-card-image">Image URL:</label>
+                    <input type="url" id="gift-card-image" placeholder="https://example.com/gift-card-image.png">
+                </div>
+
+                <div class="form-group">
+                    <label for="gift-card-link">Purchase Link:</label>
+                    <input type="url" id="gift-card-link" placeholder="https://store.com/gift-cards">
+                </div>
+
+                <div class="form-group">
+                    <label for="gift-card-notes">Notes:</label>
+                    <textarea id="gift-card-notes" placeholder="Any special notes about this gift card..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="gift-card-priority">Priority:</label>
+                    <select id="gift-card-priority">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="save-btn">Save Gift Card</button>
+                    <button type="button" class="cancel-btn" onclick="window.wishlistUI.closeGiftCardModal()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Category Modal -->
+    <div id="category-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Add New Category</h3>
+            <form id="category-form">
+                <div class="form-group">
+                    <label for="category-name">Category Name:</label>
+                    <input type="text" id="category-name" required placeholder="e.g., Books, Home, Beauty" maxlength="20">
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="save-btn">Add Category</button>
+                    <button type="button" class="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/variants.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
