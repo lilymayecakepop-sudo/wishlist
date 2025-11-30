@@ -375,14 +375,21 @@ class WishlistStorage {
     // Server data synchronization
     async loadServerData() {
         try {
+            console.log('📡 Attempting to fetch ./data.json...');
             const response = await fetch('./data.json');
+            console.log('📡 Response status:', response.status, response.statusText);
+
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
+
             const data = await response.json();
+            console.log('✅ Successfully parsed JSON data');
+            console.log('📄 Data keys:', Object.keys(data));
+
             return data;
         } catch (error) {
-            console.error('Error loading server data:', error);
+            console.error('❌ Error loading server data:', error);
             return null;
         }
     }
@@ -406,37 +413,63 @@ class WishlistStorage {
     }
 
     async syncWithServerData() {
-        console.log('Checking for server data updates...');
+        console.log('🔄 Starting data synchronization check...');
+        console.log('📊 Current localStorage items count:', this.items.length);
 
         const serverData = await this.loadServerData();
-        if (!serverData || !serverData.exportDate) {
-            console.log('No valid server data found or no timestamp in server data');
+
+        if (!serverData) {
+            console.log('❌ Failed to load server data (data.json not found or error)');
             return;
         }
+
+        if (!serverData.exportDate) {
+            console.log('❌ Server data missing exportDate timestamp');
+            console.log('📋 Server data structure:', Object.keys(serverData));
+            return;
+        }
+
+        console.log('✅ Server data loaded successfully');
+        console.log('📋 Server data items count:', serverData.items ? serverData.items.length : 0);
 
         const serverTimestamp = new Date(serverData.exportDate);
         const localTimestamp = this.getLocalTimestamp();
 
-        console.log('Server timestamp:', serverTimestamp);
-        console.log('Local timestamp:', localTimestamp);
+        console.log('⏰ Server timestamp:', serverTimestamp.toISOString());
+        console.log('⏰ Local timestamp:', localTimestamp ? localTimestamp.toISOString() : 'NOT SET');
 
-        // If no local timestamp or server data is newer, update local storage
-        if (!localTimestamp || serverTimestamp > localTimestamp) {
-            console.log('Server data is newer, updating local storage...');
+        // Check conditions for sync
+        const hasNoLocalTimestamp = !localTimestamp;
+        const serverIsNewer = localTimestamp && serverTimestamp > localTimestamp;
+        const hasNoLocalData = this.items.length === 0;
+
+        console.log('🔍 Sync conditions:');
+        console.log('  - No local timestamp:', hasNoLocalTimestamp);
+        console.log('  - Server is newer:', serverIsNewer);
+        console.log('  - No local data:', hasNoLocalData);
+
+        // If no local timestamp, server data is newer, OR no local data exists, update local storage
+        if (hasNoLocalTimestamp || serverIsNewer || hasNoLocalData) {
+            console.log('✅ Conditions met for sync - updating local storage...');
 
             // Update items if present in server data
             if (serverData.items && Array.isArray(serverData.items)) {
+                console.log(`📥 Importing ${serverData.items.length} items from server data`);
                 this.items = serverData.items;
                 this.saveItems();
-                console.log(`Updated ${serverData.items.length} items from server data`);
+                console.log('✅ Items saved to localStorage');
+            } else {
+                console.log('❌ Server data missing items array');
             }
 
             // Update the local timestamp
             this.setLocalTimestamp(serverData.exportDate);
+            console.log('✅ Local timestamp updated to:', serverData.exportDate);
 
-            console.log('Local storage updated with server data');
+            console.log('🎉 Local storage successfully updated with server data');
+            console.log('📊 New localStorage items count:', this.items.length);
         } else {
-            console.log('Local data is up to date');
+            console.log('ℹ️ Local data is up to date - no sync needed');
         }
     }
 }
