@@ -3,9 +3,11 @@ class WishlistStorage {
         this.storageKey = 'wishlist-data';
         this.giftCardsKey = 'gift-cards-data';
         this.categoriesKey = 'wishlist-categories';
+        this.timestampKey = 'wishlist-timestamp';
         this.items = this.loadItems();
         this.giftCards = this.loadGiftCards();
         this.customCategories = this.loadCategories();
+        this.syncWithServerData();
     }
 
     loadItems() {
@@ -203,9 +205,12 @@ class WishlistStorage {
 
     // Export data for backup
     exportData() {
+        const exportDate = new Date().toISOString();
+        // Update local timestamp when exporting
+        this.setLocalTimestamp(exportDate);
         return {
             version: '1.0',
-            exportDate: new Date().toISOString(),
+            exportDate: exportDate,
             items: this.items
         };
     }
@@ -216,6 +221,11 @@ class WishlistStorage {
             if (data.items && Array.isArray(data.items)) {
                 this.items = data.items;
                 this.saveItems();
+
+                // Update timestamp if provided, otherwise use current time
+                const importTimestamp = data.exportDate || new Date().toISOString();
+                this.setLocalTimestamp(importTimestamp);
+
                 return true;
             }
         } catch (error) {
@@ -360,6 +370,74 @@ class WishlistStorage {
 
     isCategoryInUse(categoryName) {
         return this.items.some(item => item.category.toLowerCase() === categoryName.toLowerCase());
+    }
+
+    // Server data synchronization
+    async loadServerData() {
+        try {
+            const response = await fetch('./data.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('Error loading server data:', error);
+            return null;
+        }
+    }
+
+    getLocalTimestamp() {
+        try {
+            const timestamp = localStorage.getItem(this.timestampKey);
+            return timestamp ? new Date(timestamp) : null;
+        } catch (error) {
+            console.error('Error getting local timestamp:', error);
+            return null;
+        }
+    }
+
+    setLocalTimestamp(timestamp) {
+        try {
+            localStorage.setItem(this.timestampKey, timestamp);
+        } catch (error) {
+            console.error('Error setting local timestamp:', error);
+        }
+    }
+
+    async syncWithServerData() {
+        console.log('Checking for server data updates...');
+
+        const serverData = await this.loadServerData();
+        if (!serverData || !serverData.exportDate) {
+            console.log('No valid server data found or no timestamp in server data');
+            return;
+        }
+
+        const serverTimestamp = new Date(serverData.exportDate);
+        const localTimestamp = this.getLocalTimestamp();
+
+        console.log('Server timestamp:', serverTimestamp);
+        console.log('Local timestamp:', localTimestamp);
+
+        // If no local timestamp or server data is newer, update local storage
+        if (!localTimestamp || serverTimestamp > localTimestamp) {
+            console.log('Server data is newer, updating local storage...');
+
+            // Update items if present in server data
+            if (serverData.items && Array.isArray(serverData.items)) {
+                this.items = serverData.items;
+                this.saveItems();
+                console.log(`Updated ${serverData.items.length} items from server data`);
+            }
+
+            // Update the local timestamp
+            this.setLocalTimestamp(serverData.exportDate);
+
+            console.log('Local storage updated with server data');
+        } else {
+            console.log('Local data is up to date');
+        }
     }
 }
 
